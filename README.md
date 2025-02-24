@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in TypeScript when iterating over arrays.  The `bug.ts` file contains the erroneous code, resulting in an error when accessing an array element beyond its bounds. The corrected code is provided in `bugSolution.ts`, which uses the proper condition `i < arr.length` to avoid the error.
